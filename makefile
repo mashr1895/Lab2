@@ -3,3 +3,9 @@ myshell: myshell.c LineParser.c
 
 mypipe: mypipe.c
 	gcc -Wall mypipe.c -o mypipe
+
+looper: Looper.c
+	gcc -Wall Looper.c -o looper
+
+clean:
+	rm -f myshell mypipe looper
