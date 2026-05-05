@@ -7,5 +7,8 @@ mypipe: mypipe.c
 looper: Looper.c
 	gcc -Wall Looper.c -o looper
 
+printers: Printers.c
+	gcc -Wall Printers.c -o printers
+	
 clean:
-	rm -f myshell mypipe looper
+	rm -f myshell mypipe looper  printers
